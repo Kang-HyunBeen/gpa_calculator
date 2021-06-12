@@ -14,5 +14,8 @@ You can modify the code according to the grade conversion law for each universit
 ### Where can I get more help, if I need it?
 If you have any questions or would like more information, please contact at 21600017@handong.edu.
 
+### My contribution
+I wrote the full codes
+
 ### Presentation Video Link
 == video Link ==
