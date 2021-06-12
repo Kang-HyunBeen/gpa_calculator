@@ -5,7 +5,7 @@ void getCourses(int *cour, int *maj){
   scanf("%d", cour);
   printf("Enter the number of major courses.\n Number: ");
   scanf("%d", maj);
-}
+} // get course num and major num.
 
 void getGrades(float **grades, int cour, int maj){
   float uinput, ginput;
@@ -15,14 +15,14 @@ void getGrades(float **grades, int cour, int maj){
       scanf("%f, %f",&uinput, &ginput);
       grades[i][0] = uinput;
       grades[i][1] = ginput;
-  }
+  } // get major courses grades.
   printf("Enter the \"units\" and \"grades\" of your remaining courses.  Ex) 3, 4.0 \n");
   for(int i=maj; i<cour; i++){
       printf("units, grade: ");
       scanf("%f, %f",&uinput, &ginput);
       grades[i][0] = uinput;
       grades[i][1] = ginput;
-  }
+  } // get remaining courses grades.
 }
 
 float cal_Mgpa(float **grades, int maj){
